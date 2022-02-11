@@ -1,0 +1,324 @@
+/* CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+  scroll-behavior: smooth;
+  list-style: none; 
+}
+
+a{
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+  
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+  
+button,
+textarea,
+select {
+    appearance: none !important;
+    border-radius: 0;
+}
+
+
+/* END OF CSS RESET */
+
+/*ROOT AND BODY PROPERTIES*/
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+/*END OF ROOT AND BODY PROPERTIES*/
+
+
+/*HEADER CSS PROPERTIES*/
+
+#header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #003249;
+  width: 100%;
+  height: 100px;
+}
+
+#menu nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+
+#menu nav li{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+#menu nav li a{
+  color: whitesmoke;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/*END OF HEADER CSS PROPERTIES*/
+
+
+/*COVID BANNER CSS PROPERTIES*/
+
+#covid {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 0px;
+  z-index: 1;
+  background-color: #f95738;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+#covid h3{
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+#covid button{
+  background-color: whitesmoke;
+  color: #f95738;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+/*END OF COVID BANNER CSS PROPERTIES*/
+
+
+/*SERVICES CSS PROPERTIES*/
+
+#services{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#services h2{
+  position: absolute;
+  top:0;
+  padding-top: 20px;
+  font-size: 3rem;
+  font-family: 'Ubuntu';
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#services1{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#services1 div, #services2 div{
+  width: 500px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  height: fit-content;
+  background-color: #003249;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+#services1 div h3, #services2 div h3{
+  padding: 5px 0px;
+  font-size: 1rem;
+  font-family: 'Ubuntu';
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+
+/*END OF SERVICES CSS PROPERTIES*/
+
+
+
+
+
+
+
+div section {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+} 
+
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    color: red;
+    text-align: center;
+    margin: 10px;
+    padding: 10px
+}
+
+ul li a:hover {
+  background-color: black;
+  color: white;
+} */
+
+
+
+#welcome {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: url(allatdokibg.png);
+  background-position: center;
+  background-size: cover;
+}
+ #welcome:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+  }
+
+#welcome h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+
+/*INTRO CSS PROPERTIES*/
+
+#intro{
+  display: flex;
+  justify-content: center;
+}
+
+#intro1{
+
+}
+
+#intro1 h2{
+  color: #003249;
+  padding: 5px 0px;
+  font-size: 1.5rem;
+  font-family: 'Ubuntu';
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+#intro h3{
+  color: #003249;
+  padding: 5px 0px;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+}
+
+#intro1 ul li{
+  color: #003249;
+  padding: 5px 0px;
+  font-size: 1rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.5em;
+} 
+
+
+/*END OF INTRO CSS PROPERTIES*/
+
+
+/*BEGINNING OF VISIT CSS PROPERTIES*/
+
+#visitgoogle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 565px;
+  background-color: #80CED7;
+}
+#visitgoogle div {
+  display: flex ;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+#visitgoogle div span.material-icons {
+  margin: 5px 0;
+  color: whitesmoke;
+}
+
+#visitgoogle div span.noticon {
+  margin: 5px 0;
+  padding-bottom: 5px;
+  font-family: 'Open Sans';
+  color: whitesmoke;
+}
+
+#contacts{
+  padding-bottom: 60px;
+  color: whitesmoke;
+  font-size: 2rem;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+/*END OF VISIT CSS PROPERTIES*/
